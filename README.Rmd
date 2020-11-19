@@ -72,4 +72,4 @@ library(phyloseq)
 library(ggplot2)
 ```
 
-O tutorial completo se encontra [aqui](https://github.com/khidalgo85/Microbiomes/blob/master/slides/Slides.html)
+O tutorial completo se encontra [aqui](slides/Slides.html)
