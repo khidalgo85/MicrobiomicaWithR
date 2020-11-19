@@ -72,4 +72,4 @@ library(phyloseq)
 library(ggplot2)
 ```
 
-O tutorial completo se encontra [aqui](slides/Slides.html)
+O tutorial completo se encontra [aqui](https://bit.ly/36SpwzO)

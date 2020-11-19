@@ -60,5 +60,4 @@ Os pacotes pode ser carregados como qualquer outro pacote de R:
     library(phyloseq)
     library(ggplot2)
 
-O tutorial completo se encontra
-[aqui](https://github.com/khidalgo85/Microbiomes/blob/master/slides/Slides.html)
+O tutorial completo se encontra [aqui](https://bit.ly/36SpwzO)
