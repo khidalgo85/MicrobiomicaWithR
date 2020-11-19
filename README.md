@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Explorando microbiomas com R <imgs src="imgs/gemm-hex.png" align="right" width = "120px"/>
+# Explorando microbiomas com R <img src="imgs/gemm-hex.png" align="right" width = "120px"/>
 
 O R é uma linguaguem muito versátil, que é amplamente usada em
 diferentes áreas. Este tutorial apresenta as principais funções do
@@ -13,13 +13,13 @@ microbiomas.
 
 ## Análise de microbiomas
 
-<imgs src="imgs/analises.png" align="center" width = "120px"/>
+<img src="imgs/analises.png" align="center" width = "100%"/>
 
 Neste tutorial os principais pacotes usados são:
 
-<imgs src="ims/qiime2R.png" width = "120px"/>
-<imgs src="imgs/phyloseq-hex.png" width = "120px"/>
-<imgs src="imgs/ggplot2-hex.png" align="right" width = "120px"/>
+<img src="imgs/qiime2R.png" width = "120px"/>
+<img src="imgs/phyloseq-hex.png" width = "120px"/>
+<img src="imgs/ggplot2-hex.png" width = "120px"/>
 
 ## Instalação
 
