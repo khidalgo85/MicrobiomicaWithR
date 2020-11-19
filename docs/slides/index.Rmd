@@ -70,7 +70,7 @@ xaringanExtra::use_extra_styles(
 
 ```{r setup, include=FALSE, echo=FALSE}
 require("knitr")
-opts_knit$set(root.dir = "~/Google Drive File Stream/Mi unidad/GitHub/Microbiomes/slides")
+opts_knit$set(root.dir = "~/Google Drive File Stream/Mi unidad/GitHub/Microbiomes/docs/slides")
 ```
 
 
@@ -733,7 +733,7 @@ class: middle
 
 `ggsave()`
 
-```{r salva o gráfico boxplot, eval= TRUE}
+```{r salva o gráfico boxplot, eval= FALSE}
 ggsave("02.Results/alpha_diversity_boxplot.tiff", units = "in", width=14, height=8, dpi=600, compression = 'lzw', p) # Salva o gráfico na pasta de resultados em formato .tiff com as medidas desejadas e a resolução de 600 dpi.
 ggsave("02.Results/alpha_diversity_boxplot.pdf", units="in", width=11, height=8, dpi=600, p) # Salva o gráfico em formato pdf
 ```
@@ -766,6 +766,8 @@ E se você simplesmente quer guardar todos os dados das métricas de diversidade
 
 ```{r tabela diversidade alfa, eval= TRUE, message=FALSE, warning=FALSE}
 alpha_diversity_data <- estimate_richness(physeq, measures = diversity_indexes)
+```
+```{r tabela diversidade alfa2, eval= FALSE, message=FALSE, warning=FALSE}
 write.csv(alpha_diversity_data, "02.Results/alpha_diversity.csv")
 ```
 
@@ -902,7 +904,7 @@ p4 <- plot_dist_as_heatmap(dist.wunifrac, title = "Weighted Unifrac") +
 ---
 class: middle
 
-```{r plot distance2, eval= TRUE, warning= FALSE, message=FALSE, out.height="60%", fig.align="center"}
+```{r plot distance2, eval= FALSE, warning= FALSE, message=FALSE, out.height="60%", fig.align="center"}
 pf <- grid.arrange(p1,p2,p3,p4, ncol = 2, nrow = 2); pf
 ggsave("02.Results/matrizesdistancia.tiff", units = "in", width=14, height=8, dpi=600, compression = 'lzw', pf) # Salva o gráfico na pasta de resultados em formato .tiff com as medidas desejadas e a resolução de 600 dpi.
 ```
@@ -1148,9 +1150,6 @@ library(ggpubr)
 pf <- ggarrange(p1, p2, p3, p4, ncol = 2, 
                 nrow = 2, common.legend = TRUE, 
                 legend = "right"); pf
-
-ggsave("02.Results/mdsdistancia.tiff", units = "in", 
-       width=14, height=8, dpi=600, compression = 'lzw', pf) # Salva o gráfico na pasta de resultados em formato .tiff com as medidas desejadas e a resolução de 600 dpi.
 ```
 ]
 
