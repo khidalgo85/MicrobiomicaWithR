@@ -2,12 +2,10 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
 
-<<<<<<< HEAD
-<a href="https://img.shields.io/badge/GEMM-Building-blue" class="uri">https://img.shields.io/badge/GEMM-Building-blue</a>
+[![ForTheBadge
+built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
 <!-- badges: end -->
 
-=======
->>>>>>> bd7f529c3da1e01e5d006bec163da9744133ca2f
 # Explorando microbiomas com R <img src="imgs/gemm-hex.png" align="right" width = "120px"/>
 
 O R é uma linguaguem muito versátil, que é amplamente usada em
